@@ -58,3 +58,57 @@ Para profundizar en el uso de estos y otros comandos, consulta este recurso:
 [Mejores comandos Linux Bash](https://sanchezcorbalan.es/mejores-comandos-linux-bash/)
 
 ¡Sigue practicando y explorando estos comandos para mejorar tu productividad en la terminal!
+
+        Tabla resumen de los 50 mejores Comandos Linux.
+
+    ls	        Lista directorios
+    cd	        Cambia el directorio actual de trabajo
+    cp	        Copia contenido desde un origen a un destino
+    mkdir	    Crea un directorio
+    rm	        Borra ficheros o directorios
+    mv	        Mueve elementos o les cambia el nombre
+    touch	    Crea un directorio vacío (o cambia la fecha)
+    man	        Consulta la ayuda más común, las páginas man
+    info	    Consulta otra ayuda, más parecido a una web, con texto y enlaces
+    whatis	    Muestra la descripción corta de un comando
+    clear	    borra la pantalla
+    history	    Muestra las últimas instrucciones ejecutadas
+    pwd	        Muestra el directorio actual de trabajo
+    find	    Busca un elemento del sistema de ficheros en función a nos criterios
+    locate	    Encontrar un fichero o directorio
+    whereis	    indica dónde está un programa
+    chmod	    cambia los permisos de un fichero o directorio
+    chown	    Cambia la propiedad de un fichero o directorio
+    wget	    Descargar el contenido de una URL en la red
+    cat	        Ver el contenido de un fichero de texto
+    grep	    muestra las lineas de un texto que cumpla con un patrón
+    tail	    muestra las últimas lineas de un texto
+    head	    muestra la primeras lineas de un texto
+    sort	    ordena texto
+    more	    Para la salida de texto cuando se llena la pantalla
+    less	    Igual que more, pero más pontente
+    dpkg	    administra paquetes en Debian y derivadas
+    rpm	        Administra paquetes en Red Hat y derivadas
+    free	    muestra información sobre la memoria (RAM y SWAP)
+    df	        Indica el tamaño usado y libre de los discos
+    du	        Calcula el tamaño ocupado por un fichero o directorio
+    lsblk	    Lista información sobre los dispositivos de bloques
+    fdisk	    Administra particiones de disco
+    top	        Información de los procesos en ejecucuión
+    ps	        listado de procesos en ejecución
+    kill	    Enviar señales a un proceso (terminar, matar, pausar, etc.)
+    mount	    Montar un sistema de ficheros
+    umount	    Desmontar un sistema de ficheros
+    uname	    Información del sistema: nombre, versión kernel, etc..
+    uptime	    tiempo encendido y carga del sistema
+    poweroff	apaga el sistema
+    reboot	    reinicia
+    id	        muestra información de un usuario
+    ping	    Indica si un ordenador está accesible en la red
+    nano	    editor de texto fácil de usar
+    tar	        comprime y descomprime ficheros y directorios
+    ssh	        Permite ejecutar instrucciones en otro ordenador
+    who	        muestra usuarios conectados al sistema
+    passwd	    cambia la contraseña de acceso
+    sudo	    Ejecuta una instrucción con más privilegios
+    su	        Permite identificarte como otro usuario
