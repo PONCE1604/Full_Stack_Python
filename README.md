@@ -1,33 +1,60 @@
 # Full_Stack_Python
 Repositorio de trabajos y desafíos de Bootcamp Full Stack Python
-Navegación y Archivos
 
-Comando	Descripción
-pwd	    Muestra la ruta del directorio actual.
-ls	    Lista archivos y carpetas.
-ls -l	Lista con detalles (permisos, tamaño, fecha).
-cd <carpeta>	Cambia de directorio.
-cd ..	    Sube un nivel.
-mkdir <nombre>	    Crea una carpeta.
-touch <archivo>	    Crea un archivo vacío.
-cp <origen> <destino>	    Copia un archivo.
-mv <origen> <destino>	    Mueve o renombra un archivo.
-rm <archivo>	    Elimina un archivo.
-rm -r <carpeta>	    Elimina una carpeta y su contenido.
-chmod +x <archivo>	Hace que un archivo sea ejecutable.
-sudo <comando>	Ejecuta un comando como superusuario (root).
-ps aux	Lista procesos en ejecución.
-kill <PID>	Mata un proceso por su ID.
-ping <dominio>	Prueba la conexión a un servidor.
-curl <URL>	Descarga contenido de una URL.
-grep "texto" <archivo>	Busca texto dentro de un archivo.
-cat <archivo>	Muestra el contenido de un archivo.
-echo "texto"	Imprime texto en la terminal.
-git config --global user.name "Tu Nombre"	Define tu nombre en Git.
-git config --global user.email "tu@email.com"	Define tu email en Git.
-git init	Inicializa un repositorio Git.
-git clone <URL>	Clona un repositorio remoto.
-git status	Muestra el estado de los archivos.
-git add <archivo>	Añade cambios al área de staging.
-git commit -m "mensaje"	Guarda los cambios con un mensaje.
-git diff	Muestra diferencias no guardadas.
+# Taller de Manejo de Consola
+
+Este taller te ayudará a familiarizarte con los comandos básicos de la consola en Linux. A continuación, se detallan los comandos fundamentales y su uso, organizados en secciones para facilitar su aprendizaje.
+
+## Contenido
+
+- **Navegación en Directorios**
+- **Gestión de Archivos y Carpetas**
+- **Uso de la Documentación del Sistema**
+- **Comandos Git**
+
+## Navegación en Directorios
+
+- **`cd "nombre de la carpeta"`**  
+  Ingresa a la carpeta especificada.
+
+- **`cd ..`**  
+  Retrocede al directorio anterior.
+
+- **`ls`**  
+  Lista los archivos y carpetas en el directorio actual.
+
+## Gestión de Archivos y Carpetas
+
+- **`mkdir "nombre_de_la_carpeta"`**  
+  Crea una carpeta vacía.
+
+- **`rm "nombre_del_archivo"`**  
+  Borra el archivo especificado.  
+  *Para eliminar una carpeta y su contenido, utiliza el parámetro `-r`:*  
+  **`rm -r nombre_de_la_carpeta`**
+
+- **`touch "nombre_del_archivo"`**  
+  Crea un archivo vacío.
+
+## Uso de la Documentación del Sistema
+
+- **`man "comando"`**  
+  Muestra la documentación detallada del comando indicado, lo que permite conocer todas sus opciones y uso.
+
+## Comandos Git
+
+- **`git status`**  
+  Visualiza el estado del repositorio, mostrando los archivos modificados y pendientes de confirmar.
+
+- **`git add .`**  
+  Añade todos los cambios realizados al área de preparación (staging area).
+
+- **`git commit -m "mensaje cortito"`**  
+  Realiza un commit de los cambios añadidos, incluyendo un mensaje breve que describa los cambios realizados.
+
+## Enlaces de Interés
+
+Para profundizar en el uso de estos y otros comandos, consulta este recurso:  
+[Mejores comandos Linux Bash](https://sanchezcorbalan.es/mejores-comandos-linux-bash/)
+
+¡Sigue practicando y explorando estos comandos para mejorar tu productividad en la terminal!
